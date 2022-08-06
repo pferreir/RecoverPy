@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "recoverpy"
-version = "1.5.2"
+version = "2.0.0"
 description = "A TUI to recover overwritten or deleted data."
 authors = ["PabloLec <pablo.lecolinet@gmail.com>"]
 license = "GPL-3.0 License"
@@ -28,7 +28,6 @@ classifiers = [
         "Operating System :: POSIX :: Linux",
         "Environment :: Console",
         "Intended Audience :: End Users/Desktop",
-        "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
@@ -37,9 +36,10 @@ classifiers = [
 include = ["recoverpy/config.yaml"]
 
 [tool.poetry.dependencies]
-python = "^3.6.2"
+python = "^3.7.0"
 PyYAML = "^5.4.1"
 py-cui-fork = "^0.0.2"
+textual = "^0.1.18"
 
 [tool.poetry.dev-dependencies]
 coverage = "^6.2"
